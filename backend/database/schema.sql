@@ -20,7 +20,7 @@ CREATE TABLE city (
 );
 
 INSERT INTO city(name,description,image,categorie_id) VALUE ('Pékin','Pékin est la grande capitale chinoise, situé à l extremiter nord-est de la plaine de la Chine du Nord','tkt',1);
-INSERT INTO city(name,description,image,categorie_id) VALUE ('Pekin','très grande ville situé en chine','tkt',1);
+INSERT INTO city(name,description,image,categorie_id) VALUE ('Shanghai','Située sur le fleuve Huangpu , la ville est remarquable pars sa taille démesurer','tkt',1);
 INSERT INTO city(name,description,image,categorie_id) VALUE ('Rome','Située au centre de la péninsule italienne, Rome sépare le nord et le sud de l italie ','tkt',2);
 INSERT INTO city(name,description,image,categorie_id) VALUE ('Venise','c est une belle petite ville Italienne (elle va coulé) avec une grande valeur historique (qui va coulé)','tkt',2);
 INSERT INTO city(name,description,image,categorie_id) VALUE ('Bordeaux','Ville ou réside le Thibaut un grand monuments historique de la ville','tkt',3);
