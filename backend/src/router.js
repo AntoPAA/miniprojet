@@ -1,11 +1,34 @@
 const express = require("express");
 
 const router = express.Router();
+const client = require("../database/client");
 
 /* ************************************************************************* */
 // Define Your API Routes Here
 /* ************************************************************************* */
+router.get("/citys", (req, res) => {
+  client
+    .query("SELECT * FROM city")
+    .then((result) => {
+      res.status(200).json(result[0]);
+    })
+    .catch((err) => {
+      console.error(err);
+      res.sendStatus(500);
+    });
+});
 
+router.get("/categories", (req, res) => {
+  client
+    .query("SELECT * FROM categorie")
+    .then((result) => {
+      res.status(200).json(result[0]);
+    })
+    .catch((err) => {
+      console.error(err);
+      res.sendStatus(500);
+    });
+});
 // Import itemControllers module for handling item-related operations
 const itemControllers = require("./controllers/itemControllers");
 
