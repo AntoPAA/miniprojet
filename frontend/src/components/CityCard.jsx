@@ -20,7 +20,6 @@ function CityCard() {
 
   return (
     <div>
-      <h1>Liste des villes :</h1>
       <ul className="cityList">
         {cities.map((city) => (
           <Link to={`/citys/${city.id}`} key={city.id} className="cityLink">

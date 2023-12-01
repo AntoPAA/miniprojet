@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
+
+.NavLiink {
+  text-decoration: none;
+  color: rgb(253, 0, 0);
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Dancing Script", sans-serif;
+}
+
+.NavLink {
+  display: flex;
+  justify-content: center;
+}
+
+.imgNav {
+  width: 100px;
+  margin-right: 150px;
+  margin-top: 30px;
+}
