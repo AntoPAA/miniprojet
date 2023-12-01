@@ -6,11 +6,8 @@ moyen utiliser : React.js , Express.js , Node.js , JS , CSS , HTML , MySQL
 
 Enjoy ! 
 
+en dessous se trouve les intructions pour initialiser le projet! 
 
-## Concept
-
-This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
-It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying a pedagogical tool.
 
 ## Setup & Use
 
@@ -38,8 +35,6 @@ git config --global core.autocrlf false
 - `dev-front` : Starts the React frontend server
 - `dev-back` : Starts the Express backend server
 - `lint` : Runs validation tools (will be executed on every _commit_, and refuse unclean code)
-
-## FAQ
 
 ### Tools
 
