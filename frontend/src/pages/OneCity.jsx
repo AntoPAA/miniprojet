@@ -34,19 +34,17 @@ function CityDetail() {
     <div>
       {city && (
         <div>
-          <h1>{city.name}</h1>
-          <img src={city.image} alt={city.name} />
-          <p>{city.description}</p>
-          <img src={city.imaged} alt={city.named} />
-
-          <h2>Catégories associées :</h2>
+          <h1 className="cityName">{city.name}</h1>
           <ul>
             {categories.map((category) => (
-              <li key={category.id}>
+              <li className="categorie" key={category.id}>
                 {category.language} - {category.country}
               </li>
             ))}
           </ul>
+          <img className="imgBig" src={city.image} alt={city.name} />
+          <p className="description">{city.description}</p>
+          <img className="imgSmall" src={city.imaged} alt={city.named} />
         </div>
       )}
     </div>

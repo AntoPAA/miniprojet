@@ -1,0 +1,40 @@
+.imgBig {
+  position: relative;
+  border-radius: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+}
+
+.cityName {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.categorie {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  left: 49%;
+  transform: translateX(-50%);
+  margin-bottom: 50px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 150px;
+}
+
+.imgSmall {
+  position: relative;
+  border-radius: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
