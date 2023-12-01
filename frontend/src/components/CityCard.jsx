@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 function CityCard() {
   const [cities, setCities] = useState([]);
@@ -21,7 +22,9 @@ function CityCard() {
       <h1>Liste des villes :</h1>
       <ul>
         {cities.map((city) => (
-          <li key={city.id}>{city.name}</li>
+          <Link to={`/citys/${city.id}`} key={city.id}>
+            <li key={city.id}>{city.name}</li>
+          </Link>
         ))}
       </ul>
     </div>
