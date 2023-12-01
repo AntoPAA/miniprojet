@@ -1,3 +1,12 @@
+## Bienvenue ! 
+
+Ceci est un mini projet pour apprendre à lié deux DataBase ! 
+
+moyen utiliser : React.js , Express.js , Node.js , JS , CSS , HTML , MySQL
+
+Enjoy ! 
+
+
 ## Concept
 
 This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
