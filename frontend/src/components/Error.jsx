@@ -1,6 +1,7 @@
 import React from "react";
 import "./Error.css";
 import NavBar from "./NavBar";
+import Footer from "./Footer";
 
 function Error() {
   return (
@@ -15,6 +16,7 @@ function Error() {
         src="https://www.atr-aircraft.com/wp-content/uploads/2020/07/atr_44773md_1303.jpg"
         alt="WingsAir"
       />
+      <Footer />
     </div>
   );
 }
