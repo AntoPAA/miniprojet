@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import "./OneCity.css";
 import NavBar from "../components/NavBar";
+import Footer from "../components/Footer";
 
 function CityDetail() {
   const { id } = useParams();
@@ -49,6 +50,7 @@ function CityDetail() {
           <img className="imgSmall" src={city.imaged} alt={city.named} />
         </div>
       )}
+      <Footer />
     </div>
   );
 }
