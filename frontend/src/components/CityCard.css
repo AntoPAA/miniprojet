@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap");
 .cityList {
   display: flex;
   flex-wrap: wrap;
@@ -33,4 +34,10 @@
   background: rgba(0, 0, 0, 0.5);
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  font-family: "Dancing Script", sans-serif;
+  font-weight: bolder;
+}
+
+.nameCity:hover {
+  color: red;
 }
