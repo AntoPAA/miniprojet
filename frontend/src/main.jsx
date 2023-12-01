@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import App from "./App";
 import CityDetail from "./pages/OneCity";
+import Error from "./components/Error";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: "citys/:id",
     element: <CityDetail />,
+  },
+  {
+    path: "*",
+    element: <Error />,
   },
 ]);
 

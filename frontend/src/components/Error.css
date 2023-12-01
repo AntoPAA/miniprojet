@@ -1,0 +1,21 @@
+.textError {
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+
+.imgError {
+  position: relative;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+  margin-bottom: 290px;
+  width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+  .textError {
+    margin-top: 150px;
+  }
+}
